@@ -1,6 +1,5 @@
 package com.cnpm.dao;
 
-import com.cnpm.entity.SubjectStatistic89;
 import com.cnpm.entity.Teacher89;
 
 import java.sql.*;
