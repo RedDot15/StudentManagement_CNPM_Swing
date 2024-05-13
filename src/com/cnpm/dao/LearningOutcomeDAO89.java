@@ -1,8 +1,6 @@
 package com.cnpm.dao;
 
 import com.cnpm.entity.LearningOutcome89;
-import com.cnpm.entity.SubjectStatistic89;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

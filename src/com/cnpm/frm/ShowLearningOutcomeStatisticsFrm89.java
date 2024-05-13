@@ -1,9 +1,7 @@
 package com.cnpm.frm;
 
 import com.cnpm.dao.LearningOutcomeDAO89;
-import com.cnpm.dao.SubjectDAO89;
 import com.cnpm.entity.LearningOutcome89;
-import com.cnpm.entity.SubjectStatistic89;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

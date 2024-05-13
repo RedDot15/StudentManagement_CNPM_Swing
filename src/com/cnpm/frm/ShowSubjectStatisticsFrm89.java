@@ -1,10 +1,7 @@
 package com.cnpm.frm;
 
 import com.cnpm.dao.SubjectDAO89;
-import com.cnpm.dao.TeacherDAO89;
 import com.cnpm.entity.SubjectStatistic89;
-import com.cnpm.entity.Teacher89;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
@@ -14,7 +11,7 @@ import java.awt.event.MouseEvent;
 import java.util.List;
 import java.util.Vector;
 
-public class ShowSubjectStatisticsFrm89 extends JFrame implements ActionListener {
+public class ShowSubjectStatisticsFrm89 extends JFrame {
 
     private JPanel panel;
     private JTable tblSubjectStatistics;
@@ -66,10 +63,5 @@ public class ShowSubjectStatisticsFrm89 extends JFrame implements ActionListener
                 showLearningOutcomeStatisticsFrm89.setVisible(true);
             }
         });
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
     }
 }
