@@ -61,7 +61,6 @@ public class ShowTeacherListFrm89 extends JFrame{
 
                 //Call subject statistics form to display
                 ShowSubjectStatisticsFrm89 showSubjectStatisticsFrm89 = new ShowSubjectStatisticsFrm89((Integer)vctSelectedRow.get(0));
-                showSubjectStatisticsFrm89.setVisible(true);
             }
         });
     }
